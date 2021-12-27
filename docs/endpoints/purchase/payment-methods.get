@@ -1,0 +1,115 @@
+GET https://payment-website-pci.ol.epicgames.com/purchase/payment-methods HTTP/2.0
+Host: payment-website-pci.ol.epicgames.com
+
+Accept-language: en-US,en;q=0.9
+X-requested-with: 9a3e8befd4c44bde9a2663a3b6459642
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Dfpdccode: uswest
+Referer: https://www.epicgames.com/store/purchase?highlightColor=0078f2&offers=1-vpr-497cdc35842e458ca10a1edae95ae181&orderId&purchaseToken&showNavigation=true
+Accept: application/json, text/plain, */*
+Cache-control: no-cache
+Origin: https://www.epicgames.com
+Pragma: no-cache
+Accept-encoding: gzip, deflate, br
+Cookie: Removed
+
+Response: 200 HTTP/2.0
+
+{
+    "availablePaymentMethods": [
+        {
+            "abGroupName": "",
+            "convenienceFeeRate": null,
+            "countryCode": "",
+            "currency": "",
+            "displayInfo": {
+                "displayName": "",
+                "logoUrl": ""
+            },
+            "gatewayType": "",
+            "gatewayTypeId": 0,
+            "grayGroupName": "",
+            "isOfflinePayment": false,
+            "morInfo": {
+                "displayName": "",
+                "merchantOfRecord": "",
+                "morLogoUrl": "",
+                "privacyPolicyUrl": "",
+                "thirdPartMor": false,
+                "tosUrl": ""
+            },
+            "paymentMethodExternalInfo": "",
+            "paymentMethodType": "",
+            "paymentMethodTypeId": 0,
+            "paymentMode": "",
+            "requireExternalBrowser": false,
+            "supportSubscription": true,
+            "supportedSubtypes": [
+                ""
+            ],
+            "transactionRange": {
+                "max": 0,
+                "min": 0,
+                "purchaseMaximumAmount": 0,
+                "purchaseMinimumAmount": 0,
+                "refundMinimumAmount": 0
+            }
+        },
+        {
+            "abGroupName": "",
+            "convenienceFeeRate": null,
+            "countryCode": "",
+            "currency": "",
+            "displayInfo": {
+                "displayName": "",
+                "logoUrl": ""
+            },
+            "gatewayType": "",
+            "gatewayTypeId": 0,
+            "grayGroupName": "",
+            "isOfflinePayment": false,
+            "morInfo": {
+                "displayName": "",
+                "merchantOfRecord": "",
+                "morLogoUrl": "",
+                "privacyPolicyUrl": "",
+                "thirdPartMor": false,
+                "tosUrl": ""
+            },
+            "paymentMethodExternalInfo": "",
+            "paymentMethodSubtype": "",
+            "paymentMethodType": "",
+            "paymentMethodTypeId": 0,
+            "paymentMode": "",
+            "requireExternalBrowser": false,
+            "supportSubscription": true,
+            "transactionRange": {
+                "max": 0,
+                "min": 0,
+                "purchaseMaximumAmount": 0,
+                "purchaseMinimumAmount": 0,
+                "refundMinimumAmount": 0
+            }
+        }
+    ],
+    "billingAccounts": [
+        {
+            "billingAccountStatus": "",
+            "currency": "",
+            "gatewayType": "",
+            "id": "",
+            "paymentMethodInfo": {
+                "amount": 0
+            },
+            "paymentMethodSubtype": "",
+            "paymentMethodType": ""
+        }
+    ],
+    "country": "",
+    "errors": null,
+    "merchantGroup": "",
+    "message": null,
+    "newBillingAccount": null,
+    "payPalExpressRequest": null,
+    "xsollaWalletBalance": null
+}

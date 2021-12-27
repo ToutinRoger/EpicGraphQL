@@ -1,0 +1,11 @@
+{
+  Enterprise {
+    checkManagePeopleAccess(accountId: "", locale: "en-US") {
+      hasAccess
+      isLoggedIn
+      nav {
+        title
+      }
+    }
+  }
+}

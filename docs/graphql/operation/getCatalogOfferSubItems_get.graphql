@@ -1,0 +1,17 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCatalogOfferSubItems&variables=[{}]&extensions=[{}]
+# | getCatalogOfferSubItems |
+
+# Variables:
+# {
+#     "locale": "en-US", 
+#     "offerId": "", 
+#     "sandboxId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }
