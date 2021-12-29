@@ -1,6 +1,6 @@
 # ![](https://raw.githubusercontent.com/ToutinRoger/EpicGraphQL/main/port_later/title.svg) 
 
-Research about the [Epic Games](https://www.epicgames.com/)'s non-documented offically, Graphql API and main API.
+Research about the [Epic Games](https://www.epicgames.com/)'s non-documented offically, Graphql API and main API, help and information at the [Discord Server](https://discord.gg/CPg9G9e22v).
 
 # How did you find these?
 <img align="right" width="250" height="250" src="https://raw.githubusercontent.com/ToutinRoger/EpicGraphQL/main/port_later/book_spinner.svg">
