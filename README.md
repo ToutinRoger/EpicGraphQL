@@ -1,4 +1,4 @@
-# ![](https://raw.githubusercontent.com/ToutinRoger/EpicGraphQL/main/port_later/EpicGraphQL-cache.svg) ![](https://raw.githubusercontent.com/ToutinRoger/EpicGraphQL/main/port_later/discord.svg)
+# ![](https://raw.githubusercontent.com/ToutinRoger/EpicGraphQL/main/port_later/EpicGraphQL-cache.svg) <a href="https://discord.gg/CPg9G9e22v"><img src="https://raw.githubusercontent.com/ToutinRoger/EpicGraphQL/main/port_later/discord.svg"></a>
 
 Research about the [Epic Games](https://www.epicgames.com/)'s non-documented offically, Graphql API and main API.
 
